@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James don photography</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo nav-branding">James Don Photography</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="About.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="images/author.jpg" alt="" />
+        </div>
+        <div class="about-text">
+          <p class="section-label">THE PHOTOGRAPHER</p>
+          <h2>Behind the <em>lens</em></h2>
+          <p class="about-bio">
+            I'm <b>Ikujuni Idowu,</b> a professional photographer passionate
+            about capturing real moments and turning them into lasting memories.
+            My work focuses on portraits, events, lifestyle, and special
+            moments. I believe great photography is about more than taking a
+            good picture, it's about capturing the emotion, personality, and
+            story behind it.
+          </p>
+          <p class="about-bio">
+            I keep my approach simple, relaxed, and creative, allowing every
+            session to feel natural while paying close attention to the details
+            that make each image unique. Whether its a personal portrait, a
+            special celebration, or a brand story, my goal is to create clean,
+            timeless phtographs that you'll enjoy for years to come. <br />
+            <b>Let's create something worth remembering.</b>
+          </p>
+          <a href="contact.html" class="btn-outline">GET IN TOUCH</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="brand-name">James Don Photography</div>
+          <p>
+            Portait, wedding, and event photography grounded in natural light
+            and honest moments.
+          </p>
+          <div class="footer-social">
+            <a href="https://wa.me/2347053074378" aria-label="Whatsapp">
+              <img src="images/whatsapp-svgrepo-com.svg" alt="" />
+            </a>
+            <a href="tel:+07053074378" aria-label="Phone number">
+              <img src="images/phone-svgrepo-com.svg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer-col" aria-label="Site sections">
+          <h3>Site</h3>
+          <ul>
+            <li><a href="About.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="tel:+09137943318">09137943318</a></li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Whatsapp Chat</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span
+          >&copy; <span id="year"></span> James Don photography. All rights
+          reserved</span
+        >
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

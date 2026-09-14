@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James don photography</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo nav-branding">James Don Photography</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="About.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <section id="services">
+      <h2 class="services-heading">Services</h2>
+      <p class="services-subhead">
+        A range of photography services tailored to capture your moments with
+        care and precision.
+      </p>
+
+      <ul class="services-list">
+        <li>
+          <div class="service-title">Portrait session</div>
+          <div class="service-desc">
+            Individual, couple, and family portraits shot on location or in
+            studio.
+          </div>
+        </li>
+        <li>
+          <div class="service-title">Wedding Photography</div>
+          <div class="service-desc">
+            Full day coverage from preparation through reception, documented
+            candidly.
+          </div>
+        </li>
+        <li>
+          <div class="service-title">Event Coverage</div>
+          <div class="service-desc">
+            Corporate events, celebrations, and private gatherings captured
+            discreetly.
+          </div>
+        </li>
+        <li>
+          <div class="service-title">Editorial &amp; commercial</div>
+          <div class="service-desc">
+            Individual, couple, and family portraits shot on location or in
+            studio.
+          </div>
+        </li>
+        <li>
+          <div class="service-title">Photo Editing &amp; Retouching</div>
+          <div class="service-desc">
+            Professional post-production to refine color, tone, and detail.
+          </div>
+        </li>
+        <li>
+          <div class="service-title">Prints &amp; Albums</div>
+          <div class="service-desc">
+            Archival-quality prints and custom-designed albums of your favourite
+            shots.
+          </div>
+        </li>
+      </ul>
+      <p class="services-cta">
+        Every session is priced to fit your needs
+        <a href="contact.html">Inquire for pricing</a>
+      </p>
+    </section>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="brand-name">James Don Photography</div>
+          <p>
+            Portait, wedding, and event photography grounded in natural light
+            and honest moments.
+          </p>
+          <div class="footer-social">
+            <a href="https://wa.me/2347053074378" aria-label="Whatsapp">
+              <img src="images/whatsapp-svgrepo-com.svg" alt="" />
+            </a>
+            <a href="tel:+07053074378" aria-label="Phone number">
+              <img src="images/phone-svgrepo-com.svg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer-col" aria-label="Site sections">
+          <h3>Site</h3>
+          <ul>
+            <li><a href="About.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="tel:+09137943318">09137943318</a></li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Whatsapp Chat</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span
+          >&copy; <span id="year"></span> James Don photography. All rights
+          reserved</span
+        >
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
